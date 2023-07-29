@@ -26,7 +26,7 @@ function App() {
   function successCallback(position) {
     var latitude = position.coords.latitude;
     var longitude = position.coords.longitude;
-    const apiKey = process.env.REACT_APP_API_KEY;
+    const apiKey = "78b51b88fe2c3492f8a49d0c50bfdc6f";
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`;
 
     fetch(apiUrl)
