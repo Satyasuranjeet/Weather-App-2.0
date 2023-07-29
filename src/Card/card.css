@@ -1,0 +1,29 @@
+.black-box{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    border: 5px solid black;
+    width:fit-content;
+    border-radius: 20px;
+    background-color: black;
+}
+.inner-box{
+    margin:20px;
+}
+.text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:10px;
+    color: #42c6ff;
+}
+.text-t{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    font-stretch: expanded;
+    color: #42c6ff;
+    margin-top: 3px;
+}
+.icon{
+    margin-top:10px;
+    width:50px;
+    
+}
